@@ -1,5 +1,5 @@
 import useSoccerData from '../hooks/useSoccerData';
-import ITheme from '../../interfaces/theme';
+import {ITheme} from '../interfaces/theme';
 
 // Icons
 import { User, ArrowCircleDown, ArrowCircleUp } from '@phosphor-icons/react';

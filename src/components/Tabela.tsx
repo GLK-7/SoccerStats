@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect } from 'react';
-import ITheme from '../../interfaces/theme';
+import {ITheme} from '../interfaces/theme';
 
 // Hook
 import useSoccerData from '../hooks/useSoccerData';

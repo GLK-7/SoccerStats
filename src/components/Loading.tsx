@@ -1,4 +1,4 @@
-import ITheme from '../../interfaces/theme';
+import {ITheme} from '../interfaces/theme';
 
 // Icons
 import { Clock } from '@phosphor-icons/react';

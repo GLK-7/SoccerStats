@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ITheme from '../../interfaces/theme';
+import {ITheme} from '../interfaces/theme';
 
 import {
   SoccerBall,
