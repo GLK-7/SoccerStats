@@ -37,7 +37,7 @@ interface PosicaoTabela {
 }
 
 interface Props {
-  theme?: ITheme;
+  theme: ITheme;
 }
 
 const Tabela = ({ theme }: Props) => {

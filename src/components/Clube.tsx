@@ -1,6 +1,6 @@
 interface Props {
-  name: string;
-  srcImg: string;
+  name?: string;
+  srcImg?: string;
   widthImg: number;
   gap: number;
 }
