@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  ::-webkit-scrollbar {
+    width: 12px; /* largura da barra de rolagem */
+  }
+
+  /* Estilos padrão (tema claro) */
+  ::-webkit-scrollbar-track {
+    background: #f5f5f5; /* fundo da trilha no tema claro */
+    border-radius: 2px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #737373; /* cor do "polegar" no tema claro */
+    border-radius: 2px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #525252; /* cor ao passar o mouse no tema claro */
+  }
+
+  /* Tema escuro */
+  .dark ::-webkit-scrollbar-track {
+    background: #1e1e1e; /* fundo da trilha no tema escuro */
+  }
+  .dark ::-webkit-scrollbar-thumb {
+    background: #737373; /* cor do "polegar" no tema escuro */
+  }
+  .dark ::-webkit-scrollbar-thumb:hover {
+    background: #525252; /* cor ao passar o mouse no tema escuro */
+  }
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
