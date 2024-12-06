@@ -13,7 +13,7 @@
   - Lista dos artilheiros do campeonato com total de gols marcados.
 
 - **Partidas**:
-  - Detalhes sobre as partidas, incluindo times que irão se enfrentar, horários e locais.
+  - Detalhes sobre as partidas, incluindo times que irão se enfrentar e horários.
 
 - **Cache Inteligente**:
   - Salva os dados localmente por 24 horas para reduzir o número de chamadas à API e melhorar a performance.
@@ -22,10 +22,12 @@
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **React TypeScript**: Framework front-end moderno e tipado para maior segurança e produtividade.
-- **Tailwind CSS**: Framework de estilização para criação de layouts rápidos e responsivos.
-- **API Futebol**: Fonte dos dados do campeonato.
-- **Local Storage**: Implementado para caching de dados por 24 horas.
+![React](https://img.shields.io/badge/React-v18-blue?logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-v4.5-blue?logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v3-blue?logo=tailwindcss&logoColor=white)
+[![API Futebol](https://img.shields.io/badge/API%20Futebol-Live-green?logo=api&logoColor=white)](https://www.api-futebol.com.br/)
+![Local Storage](https://img.shields.io/badge/Local%20Storage-Enabled-brightgreen?logo=cachet&logoColor=white)
+
 
 ---
 
@@ -40,4 +42,4 @@ Certifique-se de ter instalado em sua máquina:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/soccer-stats.git
+   git clone https://github.com/GLK-7/SoccerStats
