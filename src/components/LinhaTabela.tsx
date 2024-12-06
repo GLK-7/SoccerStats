@@ -1,11 +1,11 @@
-import ITheme from '../../interfaces/theme';
+import {ITheme} from '../interfaces/theme';
 
 interface Props {
   hasShadow?: boolean;
   fix?: boolean;
   bold?: boolean;
   children: React.ReactNode;
-  theme?: ITheme;
+  theme: ITheme;
 }
 
 const LinhaTabela = ({ hasShadow, fix, children, bold, theme }: Props) => {

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import useSoccerData from '../hooks/useSoccerData';
-import ITheme from '../../interfaces/theme';
-import { Partida } from '../../interfaces/partida';
+import { ITheme } from '../interfaces/theme';
+import { Partida } from '../interfaces/partida';
 
 // Components
 import Loading from './Loading';
@@ -85,7 +85,7 @@ const Partidas = ({ theme }: Props) => {
 
                       <span
                         className="mx-2"
-                        style={{ color: theme.boderColor }}
+                        style={{ color: theme.borderColor }}
                       >
                         X
                       </span>
